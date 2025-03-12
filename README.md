@@ -1,7 +1,7 @@
 # Capy Trading Bot
 
 This repository contains simple DeFi bots in Typescript, which are designed to find and take advantage of arbitrage opportunities in different SUI DEXs and/or perform trading activities based on script-logic strategies. Since it is still in BETA version, the agents might not be profitable and are mainly open-sourced as a reference implementation that could be reused to implement custom strategies.
-
+I can make it
 ## Features
 
 -   Implements a basic `Strategy` interface (developers can implement their own strategies).

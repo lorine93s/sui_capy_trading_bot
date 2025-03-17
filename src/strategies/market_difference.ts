@@ -22,6 +22,7 @@ export class MarketDifference extends Strategy {
      *             A value of 1.05 means that the price difference should be at least 5%.
      * @param name A human-readable name for this strategy.
      */
+    
     constructor(
         pool: Pool<CetusParams | TurbosParams>,
         exchange: string,

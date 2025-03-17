@@ -8,6 +8,7 @@ import { Coin } from '../coins'
  * If the price of a token from some data source, say an exchange, looks like it's going into a period where it's price is increasing we
  * should buy the token on a trading pool. The trend is determined by comparing a short moving average to a longer moving average.
  */
+
 export class RideTheExternalTrend extends Strategy {
     private readonly short: number
     private readonly long: number
